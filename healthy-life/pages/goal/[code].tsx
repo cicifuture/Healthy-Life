@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { useGoals } from '../../context/GoalContext';
+import React from 'react';
 
 const GoalDetails: React.FC = () => {
   const router = useRouter();

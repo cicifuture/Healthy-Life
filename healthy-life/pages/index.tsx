@@ -7,7 +7,7 @@ import { GetServerSideProps } from 'next';
 import { useGoals } from '../context/GoalContext';
 import { fetchUnsplashImages } from '../utils/fetchUnplashImages';
 import { shortTitles } from '../utils/goalTitles';
-
+import React from 'react';
 interface Goal {
   code: string;
   title: string;
